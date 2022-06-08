@@ -3,13 +3,16 @@ import "./topbar.css";
 import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
 import LanguageIcon from "@material-ui/icons/Language";
 import SettingsIcon from "@material-ui/icons/Settings";
+import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 
 export default function Topbar() {
   return (
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
-          <span className="logo">lamaadmin</span>
+          <span className="logo">
+            ADMIN V2 <AccountCircleIcon />
+          </span>
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
