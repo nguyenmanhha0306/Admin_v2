@@ -1,6 +1,7 @@
 import "./userList.css";
 import * as React from "react";
 import { DataGrid } from "@material-ui/data-grid";
+import DeleteForeverIcon from "@material-ui/icons/DeleteForever";
 
 export default function UserList() {
   const columns = [
@@ -28,12 +29,25 @@ export default function UserList() {
     {
       field: "status",
       headerName: "status",
-      width: 210,
+      width: 180,
     },
     {
       field: "transaction",
       headerName: "Transaction Volume",
-      width: 310,
+      width: 250,
+    },
+    {
+      field: "action",
+      headerName: "Action",
+      width: 150,
+      renderCell: (params) => {
+        return (
+          <>
+            <button className="userListEdit">Edit</button>
+            <DeleteForeverIcon />
+          </>
+        );
+      },
     },
   ];
 
