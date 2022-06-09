@@ -1,5 +1,6 @@
 import "./featuredinfo.css";
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 
 export default function Featuredinfo() {
   return (
@@ -20,8 +21,8 @@ export default function Featuredinfo() {
         <div className="featuredMoneyContainer">
           <span className="featuredMoney">$100</span>
           <span className="featuredMoneyRate">
-            -9.9
-            <ArrowDownwardIcon className="featuredIcon" />
+            +9.9
+            <ArrowUpwardIcon className="featuredIcon" />
           </span>
         </div>
         <span className="featuredSub">Compared to last month</span>
@@ -31,8 +32,8 @@ export default function Featuredinfo() {
         <div className="featuredMoneyContainer">
           <span className="featuredMoney">$3,60</span>
           <span className="featuredMoneyRate">
-            -8,79
-            <ArrowDownwardIcon className="featuredIcon" />
+            +8,79
+            <ArrowUpwardIcon className="featuredIcon" />
           </span>
         </div>
         <span className="featuredSub">Compared to last month</span>
