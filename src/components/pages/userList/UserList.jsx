@@ -6,10 +6,18 @@ export default function UserList() {
   const columns = [
     { field: "id", headerName: "ID", width: 90 },
     {
-      field: "username",
-      headerName: "Username",
+      field: "user",
+      headerName: "User",
       width: 200,
       editable: true,
+      renderCell: (params) => {
+        return (
+          <div className="userListUser">
+            <img className="userListImg" src={params.row.avatar} alt="" />
+            {params.row.username}
+          </div>
+        );
+      },
     },
     {
       field: "email",
