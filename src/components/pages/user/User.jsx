@@ -1,4 +1,7 @@
 import "./user.css";
+
+import { Link } from "react-router-dom";
+
 import PermContactCalendarIcon from "@material-ui/icons/PermContactCalendar";
 import EmailIcon from "@material-ui/icons/Email";
 import RoomIcon from "@material-ui/icons/Room";
@@ -11,7 +14,9 @@ export default function User() {
     <div className="user">
       <div className="userTitleContainer">
         <h1 className="userTitle">Edit user</h1>
-        <button className="userAddButton">Create</button>
+        <Link to="/newUser">
+          <button className="userAddButton">Create</button>
+        </Link>
       </div>
       <div className="userContainer">
         <div className="userShow">
@@ -104,10 +109,11 @@ export default function User() {
                   alt=""
                 />
                 <label htmlFor="file">
-                  <PublishIcon />
+                  <PublishIcon className="userUPdateIcon" />
                 </label>
                 <input type="file" id="file" style={{ display: "none" }} />
               </div>
+              <button className="userUpdateButton">Update</button>
             </div>
           </from>
         </div>
