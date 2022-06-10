@@ -14,3 +14,18 @@
   object-fit: cover;
   margin-right: 10px;
 }
+
+.userListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #c25b56;
+  color: aliceblue;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.userListDelete {
+  color: #beb9b5;
+  cursor: pointer;
+}
