@@ -1,0 +1,34 @@
+.newUser {
+  flex: 4;
+}
+
+.newUserFrom {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.newUserItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.newUserItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #c25b56;
+}
+
+.newUserItem > input {
+  height: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.newUserGender > label {
+}
