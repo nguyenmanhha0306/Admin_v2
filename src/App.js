@@ -4,6 +4,7 @@ import "./app.css";
 import Home from "./components/pages/home/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import UserList from "./components/pages/userList/UserList";
+import User from "./components/pages/user/User";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/" exact element={<Home />}></Route>
-          <Route path="/users" exact element={<UserList />}></Route>
+          <Route path="/users" element={<UserList />}></Route>
+          <Route path="/users/:userId" element={<User />}></Route>
         </Routes>
       </div>
     </Router>

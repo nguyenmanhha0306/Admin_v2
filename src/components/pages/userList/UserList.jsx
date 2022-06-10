@@ -12,13 +12,13 @@ export default function UserList() {
   const handleDelete = (id) => {
     setData(data.filter((item) => item.id !== id));
   };
+
   const columns = [
     { field: "id", headerName: "ID", width: 90 },
     {
       field: "user",
       headerName: "User",
       width: 200,
-      editable: true,
       renderCell: (params) => {
         return (
           <div className="userListUser">
