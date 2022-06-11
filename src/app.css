@@ -3,3 +3,8 @@
   margin-top: 11px;
   background-color: #fef6eb;
 }
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

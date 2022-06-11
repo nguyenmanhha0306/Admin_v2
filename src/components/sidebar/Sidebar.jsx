@@ -12,6 +12,7 @@ import MessageIcon from "@material-ui/icons/Message";
 import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
 import AirplayIcon from "@material-ui/icons/Airplay";
 import AssignmentLateIcon from "@material-ui/icons/AssignmentLate";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -37,14 +38,18 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem ">
-              <PeopleIcon className="sidebarIcon" />
-              Users
-            </li>
-            <li className="sidebarListItem">
-              <RecentActorsIcon className="sidebarIcon" />
-              Products
-            </li>
+            <Link to="/users" className="link">
+              <li className="sidebarListItem ">
+                <PeopleIcon className="sidebarIcon" />
+                Users
+              </li>
+            </Link>
+            <Link to="/products" className="link">
+              <li className="sidebarListItem">
+                <RecentActorsIcon className="sidebarIcon" />
+                Products
+              </li>
+            </Link>
             <li className="sidebarListItem">
               <ReceiptIcon className="sidebarIcon" />
               Transactions

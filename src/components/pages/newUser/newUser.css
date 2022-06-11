@@ -28,7 +28,45 @@
   padding: 10px;
   border: none;
   border-bottom: 1px solid gray;
+  border-radius: 3px;
+}
+
+.newUserGender {
+  display: flex;
 }
 
 .newUserGender > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #525564;
+}
+
+.newUserSelect {
+  height: 20px;
+}
+
+.newUserGender > input {
+  margin-top: 15px;
+}
+
+.newUserSelect {
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  border-bottom: 1px solid #525564;
+  margin-top: 10px;
+}
+
+.newUserButton {
+  margin-top: 110px;
+  margin-left: 100px;
+  width: 200px;
+  border: none;
+  height: 40px;
+  color: aliceblue;
+  background-color: #c25b56;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
 }
