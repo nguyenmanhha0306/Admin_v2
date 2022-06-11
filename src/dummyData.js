@@ -45,6 +45,29 @@ export const UserData = [
   },
 ];
 
+export const productData = [
+  {
+    name: "Feb",
+    Sales: 4000,
+  },
+  {
+    name: "Mar",
+    Sales: 3000,
+  },
+  {
+    name: "Apr",
+    Sales: 2000,
+  },
+  {
+    name: "May",
+    Sales: 2500,
+  },
+  {
+    name: "Jun",
+    Sales: 3500,
+  },
+];
+
 export const userRows = [
   {
     id: 1,
@@ -135,5 +158,88 @@ export const userRows = [
     email: "dieppham@gmail.com",
     status: "active",
     transaction: "$4290.00",
+  },
+];
+
+export const productRows = [
+  {
+    id: 1,
+    name: "Nguyen Macbook Pro M1 Max 2021",
+    img: "https://i.pinimg.com/564x/c3/44/fa/c344fae8ce8d19c0edeed36a73b330a0.jpg",
+    stock: "306",
+    status: "active",
+    price: "$3190.00",
+  },
+  {
+    id: 2,
+    name: "David Nguyen",
+    img: "https://i.pinimg.com/564x/c3/44/fa/c344fae8ce8d19c0edeed36a73b330a0.jpg",
+    stock: "306",
+    status: "active",
+    price: "$1190.00",
+  },
+  {
+    id: 3,
+    name: "Kevin Tran",
+    img: "https://i.pinimg.com/564x/c3/44/fa/c344fae8ce8d19c0edeed36a73b330a0.jpg",
+    stock: "306",
+    status: "active",
+    price: "$4590.00",
+  },
+  {
+    id: 4,
+    name: "Eli Carina",
+    img: "https://i.pinimg.com/564x/c3/44/fa/c344fae8ce8d19c0edeed36a73b330a0.jpg",
+    stock: "306",
+    status: "active",
+    price: "$4790.00",
+  },
+  {
+    id: 5,
+    name: "Robert Macbook Pro M1 Max 2021",
+    img: "https://i.pinimg.com/564x/c3/44/fa/c344fae8ce8d19c0edeed36a73b330a0.jpg",
+    stock: "306",
+    status: "active",
+    price: "$4290.00",
+  },
+  {
+    id: 6,
+    name: "Robert Macbook Pro M1 Max 2021",
+    img: "https://i.pinimg.com/564x/c3/44/fa/c344fae8ce8d19c0edeed36a73b330a0.jpg",
+    stock: "306",
+    status: "active",
+    price: "$4290.00",
+  },
+  {
+    id: 7,
+    name: "Robert Macbook Pro M1 Max 2021",
+    img: "https://i.pinimg.com/564x/c3/44/fa/c344fae8ce8d19c0edeed36a73b330a0.jpg",
+    stock: "306",
+    status: "active",
+    price: "$4290.00",
+  },
+  {
+    id: 8,
+    name: "Robert Macbook Pro M1 Max 2021",
+    img: "https://i.pinimg.com/564x/c3/44/fa/c344fae8ce8d19c0edeed36a73b330a0.jpg",
+    stock: "306",
+    status: "active",
+    price: "$4290.00",
+  },
+  {
+    id: 9,
+    name: "Robert Macbook Pro M1 Max 2021",
+    img: "https://i.pinimg.com/564x/c3/44/fa/c344fae8ce8d19c0edeed36a73b330a0.jpg",
+    stock: "306",
+    status: "active",
+    price: "$4290.00",
+  },
+  {
+    id: 10,
+    name: "Robert Macbook Pro M1 Max 2021",
+    img: "https://i.pinimg.com/564x/c3/44/fa/c344fae8ce8d19c0edeed36a73b330a0.jpg",
+    stock: "306",
+    status: "active",
+    price: "$4290.00",
   },
 ];
